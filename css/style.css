@@ -1,22 +1,23 @@
 body{
 	font-family:Arial, sans-serif;
-	background:#48484F;
+	background:#D4D4D5;
 
 }
 
 #prediction {
-	border-top:2px solid #555555;
-	background:#595959;
+	background:#CECBCD;
 	height:500px;
 	width:1000px;
 	margin:10% auto;	
-
+	font:25px Helvetica, sans-serif;
+	color:#4A4D56;
+	font-style:italic;
 }
 
 #prediction-text {
 
 	font:50px Helvetica, sans-serif;
-	color:white;
+	color:#282B34;
 	padding:20% 5%;
 	text-align:center;
 }
