@@ -1,0 +1,9 @@
+var adj=["P2P",    	"social media",	"distributed",	"industry strength",	"virtual",	"autonomous",	"adaptive",	"cross compatible",	"provably fair",	"multi-agent",	"randomly generated",	"voice activated",	"backwards compatible",	"cloud based",	"open source",	"extendible",	"resource sensitive",	"environmentally friendly",	"cryptographic",	"anonymous",	"user friendly",	"big data",	"parallelized",	"high-speed"];
+
+
+var topic=["parking",    	  "grading",	  "research",	  "college dating",	  "party",	  "student loan",	  "textbook exchange",	  "frat",	  "sorority",	  "university organization",	  "time management",	  "carpooling",	  "campus health",	  "volunteering",	  "outreach",	  "tutoring",	  "graduation",	  "admissions",	  "judicial board",	  "drinking",	  "schedule"];
+
+
+var tech=["Rails",    	  "Python",	  "C++",	  "JavaScript",	  "Node.js",	  "C",	  "Assembly",	  "Java",	  "Matlab",	  "R",	  "PHP",	  "Lisp",	  "Perl",	  "Visual Basic",	  "Processing",	  "OpenSSL",	  "Django",	  "no libraries",	  "jQuery",	  "Hadoop",	  "MySQL",	  "lots of templates",	  "delayed evaluation",	  "less than 512 KB of memory",	  "map-reduce",	  "Google Maps",	  "Amazon EC2",	  "Markov chains",	  "alpha beta pruning",	  "red/black trees",	  "Djikstra's algorithm",	  "SAT solvers",	  "eliptic curve cryptography",	  "OpenCV",	  "Weka",	  "metasploit"];
+
+var noun=["firewall",    	  "Android app",	  "iPhone app",	  "framework",	  "library",	  "email client",	  "spam filter",	  "microblogging service",	  "language",	  "videogame",	  "experiment",	  "database",	  "package",	  "toolkit",	  "kernel extension",	  "browser plugin",	  "website",	  "program",	  "operating system",	  "API",	  "service",	  "payment processor",	  "news aggregator",	  "chat client",	  "firmware",	  "DLL",	  "trading bot",	  "filesystem",	  "version control system",	  "algorithm"];
