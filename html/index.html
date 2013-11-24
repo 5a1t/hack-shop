@@ -4,14 +4,40 @@
 		<title>Hackathon Idea Generator</title>
 		<link rel="shortcut icon" href="../img/eyeglasses.ico">
 		<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+		<script src="../js/generate.js"></script>
 	</head>
 
 
 	<body>
 		<div id="prediction">
 			<div id="prediction-text">
-				Text will go here.
+				This site requires JavaScript - sorry!
 			</div>
+
+			<script>
+				//var rand = adj[Math.floor(Math.random() * adj.length)];
+				var rand_adj = adj[Math.floor(Math.random() * adj.length)];	
+				var rand_topic = topic[Math.floor(Math.random() * topic.length)];	
+				var rand_tech = tech[Math.floor(Math.random() * tech.length)];	
+				var rand_noun = noun[Math.floor(Math.random() * noun.length)];
+				var idea = rand_adj + " " +  rand_topic + " " +  rand_noun + " using " + rand_tech + ".";	
+				if(idea[0] === "a" ||
+				idea[0] ==="e" ||
+				idea[0] === "i" ||
+				idea[0] === "o" ||
+				idea[0] === "u"){
+					idea = "An " + idea;
+				}
+				else{
+					idea = "A " + idea;
+				}
+
+					
+				document.getElementById("prediction-text").innerHTML = idea;
+
+
+			</script>
+
 		</div>
 
 	</body>
